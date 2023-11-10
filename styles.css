@@ -1,0 +1,31 @@
+/* Agrega estos estilos adicionales */
+
+#eventos, #recursos {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+#eventos p, #recursos p {
+    margin-bottom: 20px;
+}
+
+#recursos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recursos li {
+    margin-bottom: 10px;
+}
+
+#recursos li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#recursos li a:hover {
+    color: #007bff;
+}
+
+/* Estilos adicionales según sea necesario */
