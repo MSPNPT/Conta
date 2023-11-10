@@ -1,13 +1,56 @@
-/* Estilos adicionales con colores llamativos */
+/* Estilos adicionales con colores llamativos y centrado */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Asegura que se utilice una fuente legible */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centra el contenido en la página */
+}
+
+header {
+    background-color: #2c3e50; /* Cambia el fondo del encabezado a un azul oscuro */
+    color: #ecf0f1; /* Cambia el color del texto del encabezado a blanco */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista en el menú */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #3498db; /* Cambia el color del texto al pasar el mouse a un tono más claro de azul */
+}
+
+/* Estilos adicionales con colores llamativos y centrado para las secciones */
 
 #eventos, #recursos {
-    background-color: #f8f8f8; /* Cambia el fondo a un gris más claro */
+    background-color: #f8f8f8;
     padding: 60px 0;
+    text-align: center; /* Centra el texto en las secciones */
 }
 
 #eventos p, #recursos p {
     margin-bottom: 20px;
-    color: #333; /* Cambia el color del texto a gris oscuro */
+    color: #333;
 }
 
 #recursos ul {
@@ -21,10 +64,10 @@
 
 #recursos li a {
     text-decoration: none;
-    color: #007bff; /* Cambia el color del texto a azul llamativo */
+    color: #007bff;
     font-weight: bold;
 }
 
 #recursos li a:hover {
-    color: #0056b3; /* Cambia el color del texto a un tono más oscuro de azul al pasar el mouse */
+    color: #0056b3;
 }
