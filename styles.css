@@ -6,7 +6,11 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #3498db, #2ecc71);
 }
-
+h1 {
+    margin: 0 auto;
+    color: #FF0000;
+}
+        
 .container {
     width: 80%;
     margin: 0 auto;
