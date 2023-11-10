@@ -1,12 +1,13 @@
-/* Agrega estos estilos adicionales */
+/* Estilos adicionales con colores llamativos */
 
 #eventos, #recursos {
-    background-color: #f4f4f4;
+    background-color: #f8f8f8; /* Cambia el fondo a un gris más claro */
     padding: 60px 0;
 }
 
 #eventos p, #recursos p {
     margin-bottom: 20px;
+    color: #333; /* Cambia el color del texto a gris oscuro */
 }
 
 #recursos ul {
@@ -20,12 +21,10 @@
 
 #recursos li a {
     text-decoration: none;
-    color: #333;
+    color: #007bff; /* Cambia el color del texto a azul llamativo */
     font-weight: bold;
 }
 
 #recursos li a:hover {
-    color: #007bff;
+    color: #0056b3; /* Cambia el color del texto a un tono más oscuro de azul al pasar el mouse */
 }
-
-/* Estilos adicionales según sea necesario */
